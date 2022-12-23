@@ -1,1 +1,5 @@
 // This file combines the other stylesheets
+
+// This basically just inserts the other files here
+@use 'colors.scss';
+@use 'forms.scss';

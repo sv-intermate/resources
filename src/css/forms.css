@@ -1,0 +1,30 @@
+input, button, textarea, select, .button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  color: black;
+  text-decoration: none;
+  background: white;
+}
+
+inputbutton, inputinput[type='submit'], inputinput[type='button'], input.button, buttonbutton, buttoninput[type='submit'], buttoninput[type='button'], button.button, textareabutton, textareainput[type='submit'], textareainput[type='button'], textarea.button, selectbutton, selectinput[type='submit'], selectinput[type='button'], select.button, .buttonbutton, .buttoninput[type='submit'], .buttoninput[type='button'], .button.button {
+  text-align: center;
+  background-color: var(--intermate-yellow);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+inputbutton.decline, inputinput[type='submit'].decline, inputinput[type='button'].decline, input.button.decline, buttonbutton.decline, buttoninput[type='submit'].decline, buttoninput[type='button'].decline, button.button.decline, textareabutton.decline, textareainput[type='submit'].decline, textareainput[type='button'].decline, textarea.button.decline, selectbutton.decline, selectinput[type='submit'].decline, selectinput[type='button'].decline, select.button.decline, .buttonbutton.decline, .buttoninput[type='submit'].decline, .buttoninput[type='button'].decline, .button.button.decline {
+  background-color: var(--soft-red);
+}
+
+inputbutton.accept, inputinput[type='submit'].accept, inputinput[type='button'].accept, input.button.accept, buttonbutton.accept, buttoninput[type='submit'].accept, buttoninput[type='button'].accept, button.button.accept, textareabutton.accept, textareainput[type='submit'].accept, textareainput[type='button'].accept, textarea.button.accept, selectbutton.accept, selectinput[type='submit'].accept, selectinput[type='button'].accept, select.button.accept, .buttonbutton.accept, .buttoninput[type='submit'].accept, .buttoninput[type='button'].accept, .button.button.accept {
+  background-color: var(--soft-green);
+}
+/*# sourceMappingURL=forms.css.map */

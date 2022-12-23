@@ -1,1 +1,52 @@
 // This file formats the forms and inputfields
+
+input, button, textarea, select, .button{
+    // We don't want the stupid browser appearance
+    appearance: none;
+
+    // Style the border
+    border: none;
+    border: 1px solid;
+    border-radius: 5px;
+
+    // Make it a bit bigger
+    padding: 10px 10px;
+
+    // And give it some space
+    margin: 10px 0;
+
+    color: black;
+    text-decoration: none;
+
+    // White background looks nice and distinct 
+    // (at least when using the slightly off-white background-white as background for the overall page)
+    background: white;
+
+    // If it is a button
+    &button, &input[type='submit'], &input[type='button'], &.button{
+        // Align text in the center
+        text-align: center;
+    
+        // The standard background color is intermate yellos
+        background-color: var(--intermate-yellow);
+    
+        // White looks good on intermate yellow
+        color: white;
+    
+        // We should be able to see it, so let's make the text bold
+        font-weight: bold;
+    
+        // When we hover over a buttton, we should see a pointer
+        cursor: pointer;
+    
+        // Here we give the buttons a different background color
+        // For example when you use it as a decline or accept button
+        &.decline{
+            background-color: var(--soft-red);
+        }
+    
+        &.accept{
+            background-color: var(--soft-green);
+        }
+    }
+}
