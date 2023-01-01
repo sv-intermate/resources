@@ -1,0 +1,22 @@
+body{
+    /* Positioning */
+    margin: 0;
+
+    /* Font */
+    font-family: 'Roboto', sans-serif;
+
+    /* Background */
+    background-color: white;
+    background-image: url("https://git.intermate.nl/CIE_plus_plus/resources/raw/branch/main/images/balls.svg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+a{
+    color: var(--intermate-red);
+}
