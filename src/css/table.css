@@ -1,0 +1,42 @@
+/* Table styling */
+/* - Use the class "totals" to give a cell or row some different styling */
+/* - Use the class "icon" to center an icon in the cell, make sure the icon has the class "icon" */
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+    text-align: left;
+
+    background-color: white;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+tr.totals, th.totals, td.totals{
+    background: #efefef;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th.iconCell, td.iconCell{
+    text-align: center;
+}
+
+th.iconCell > .icon, td.iconCell > .icon{
+    font-size: 15px;
+    width: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--just-blue);
+    color: white;
+
+    cursor: pointer;
+}
+
+th{
+    background: var(--just-blue);
+    color: white;
+}
