@@ -1,5 +1,10 @@
 /* This file formats the forms and inputfields */
 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 input, button, textarea, select, .button{
     /* We don't want the stupid browser appearance */
     appearance: none;
