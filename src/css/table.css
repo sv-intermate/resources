@@ -14,7 +14,7 @@ table{
 }
 
 tr.totals, th.totals, td.totals{
-    background: #efefef;
+    background: var(--light-grey);
 }
 
 th, td{
@@ -30,13 +30,13 @@ th.iconCell > .icon, td.iconCell > .icon{
     width: 15px;
     padding: 8px;
     border-radius: 50%;
-    background-color: var(--just-blue);
+    background-color: var(--standard-blue);
     color: white;
 
     cursor: pointer;
 }
 
 th{
-    background: var(--just-blue);
+    background: var(--standard-blue);
     color: white;
 }
