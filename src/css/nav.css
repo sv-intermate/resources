@@ -1,0 +1,18 @@
+header{
+    background-color: var(--intermate-yellow);
+    border-bottom: 1px solid grey;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
+
+header nav div.item{
+    padding: 8px 20px;
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+
+    position: relative;
+}
