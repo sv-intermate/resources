@@ -5,7 +5,7 @@ form{
     flex-direction: column;
 }
 
-input, button, textarea, select, .button{
+input:not(input[type="radio"], input[type="checkbox"]), button, textarea, select, .button{
     /* We don't want the stupid browser appearance */
     appearance: none;
 
@@ -36,10 +36,10 @@ button, input[type='submit'], input[type='button'], .button{
     text-align: center;
 
     /* The standard background color is intermate yellos */
-    background-color: var(--intermate-yellow);
+    background-color: var(--intermate-yellow) !important;
 
     /* White looks good on intermate yellow */
-    color: white;
+    color: white !important;
 
     /* We should be able to see it, so let's make the text bold */
     font-weight: bold;
