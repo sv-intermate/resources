@@ -5,7 +5,7 @@ form{
     flex-direction: column;
 }
 
-input:not(input[type="radio"], input[type="checkbox"]), button, textarea, select, .button{
+input, button, textarea, select, .button{
     /* We don't want the stupid browser appearance */
     appearance: none;
 
@@ -28,6 +28,12 @@ input:not(input[type="radio"], input[type="checkbox"]), button, textarea, select
     /* White background looks nice and distinct  */
     /* (at least when using the slightly off-white background-white as background for the overall page) */
     background: white;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    appearance: auto;
+    width: unset;
+    margin: unset;
 }
 
 /* If it is a button */
