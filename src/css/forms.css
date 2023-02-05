@@ -42,10 +42,10 @@ button, input[type='submit'], input[type='button'], .button{
     text-align: center;
 
     /* The standard background color is intermate yellos */
-    background-color: var(--intermate-yellow) !important;
+    background-color: var(--intermate-yellow);
 
     /* White looks good on intermate yellow */
-    color: white !important;
+    color: white;
 
     /* We should be able to see it, so let's make the text bold */
     font-weight: bold;
