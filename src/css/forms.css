@@ -5,7 +5,7 @@ form{
     flex-direction: column;
 }
 
-input, button, textarea, select, .button, input:not(input[type='radio'], input[type='checkbox']){
+input, button, textarea, select, .button{
     /* We don't want the stupid browser appearance */
     appearance: none;
 
