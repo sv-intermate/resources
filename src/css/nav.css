@@ -25,6 +25,10 @@ header nav div.item span.icon{
     margin: 0 0 0 10px;
 }
 
+header nav div.item.active{
+    color: var(--intermate-yellow-hover);
+}
+
 a.spread{
     position: absolute;
     height: 100%;
