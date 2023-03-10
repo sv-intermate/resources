@@ -15,32 +15,38 @@ module.exports = {
     variants: {
       display: ["group-hover"]
     },
+    fontFamily: { 'sans': ['roboto', 'sans-serif']},
 
     extend: {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'intermate-yellow': '#f8a90c',
-        'intermate-yellow-hover': '#b87e08',
+        'intermate-yellow': 'hsla(40, 94%, 51%, 1)',
+        'intermate-yellow-hover': 'hsla(40, 92%, 38%, 1)',
         'intermate-shadow' : 'hsla(0, 0%, 75%, 0.5)',
       },
-      backgroundImage: {
-        'ballen' : "url('.perseus/static/balls.svg')"
-      }
+      
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    darkTheme: "light",
-    themes: ["light", "dark", "night",
-    {
-      intermate: {
-        primary: "#a991f7",
-        secondary: "#f6d860",
+    darkTheme: "intermate_dark",
+    themes: [ {
+      intermate_light: {
+        primary: "hsla(40, 94%, 51%, 1)", /*This Intermate yellow*/
+        "primary-focus": "hsla(40, 92%, 38%, 1)", /*This Intermate yellow on hover, in other words focus*/
+        secondary: "hsla(140, 92%, 38%, 1)", /*Needs to be changed*/
         accent: "#37cdbe",
         neutral: "#3d4451",
-        "base-100": "#fccf47",
-        "intermate-yellow": "#f8a90c",
+        "base-100": "hsla(0, 0%, 100%, 1)",
+      },
+      intermate_dark: {
+        primary: "hsla(40, 94%, 51%, 1)",
+        "primary-focus": "hsla(40, 92%, 38%, 1)",
+        secondary: "hsla(140, 20%, 38%, 1)", /*Needs to be changed*/
+        accent: "hsla(40, 92%, 38%, 1)",
+        neutral: "hsla(40, 92%, 38%, 1)",
+        "base-100": "hsla(0, 0%, 0%, 1)",
       },
     },
   ],
