@@ -7,12 +7,12 @@
 
 @layer components {
     .intermate-navbar {
-        @apply navbar bg-intermate-yellow shadow-md shadow-intermate-shadow;        
+        @apply navbar bg-primary;        
     }
     .intermate-footer {
-        @apply footer p-10 bg-intermate-yellow text-white justify-around;
+        @apply footer p-10 bg-primary text-white justify-around;
     }
     .intermate-navbutton-effect {
-        @apply block hover:text-intermate-yellow-hover transition-all hover:scale-110 ease-in-out;
+        @apply block hover:text-primary-focus transition-all hover:scale-110 ease-in-out;
     }
 }
