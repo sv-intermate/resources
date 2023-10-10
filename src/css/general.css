@@ -8,8 +8,7 @@ body{
     /* Background */
     background-color: white;
     background-image: url("https://git.intermate.nl/CIE_plus_plus/resources/raw/branch/main/images/balls.svg");
-    background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 h1{
